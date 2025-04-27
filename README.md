@@ -64,3 +64,36 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+Setup and Installation Instructions
+1.Clone the repository
+  git clone https://github.com/jishnurajjjjj/event-management.git
+
+2.Navigate to the project folder
+  cd event-management
+
+3.Install dependencies
+  composer install
+  npm install
+
+4.Compile frontend assets
+  npm run dev
+
+5.Create and configure the env
+  cp .env.example .env
+
+6.Generate the application key
+  php artisan key:generate
+
+7.Run the migrations:
+  php artisan migrate
+
+8.Seed the database
+  php artisan db:seed
+
+9.Start the development server
+  php artisan serve
+
+
+
+
